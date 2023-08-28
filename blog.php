@@ -96,8 +96,9 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
         </nav>
         
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" style="background-image: url('assets/img/header-bg-blog.jpg');">
             <div class="container">
+                
                 <!-- <div class="masthead-subheading"><?php echo $tbl_config[0]['valeur']; ?></div> -->
                 <div class="masthead-heading text-uppercase" style="font-size: 55px;">Blog</div>
                 <!-- <a class="btn btn-primary btn-xl text-uppercase"href="blog.php" href="<?php echo $tbl_config[3]['valeur']; ?>"><?php echo $tbl_config[2]['valeur']; ?></a> -->

@@ -61,7 +61,7 @@ $liste_newsletter=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" style="background-image: url('assets/img/header-bg-leconcept.jpg');">
             <div class="container">
                 <div class="masthead-subheading">Découvrez le Plaisir Authentique et Sensuel !!!</div>
             </div>

@@ -54,6 +54,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            
             <div class="container">
                 <a class="navbar-brand" href="index.php"><img src="assets/img/klole-logo.png" alt="..." /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +62,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
                     <i class="fas fa-bars ms-1"></i>
                 </button>
                 
-                <div class="collapse navbar-collapse" id="navbarResponsive">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         
                         <li class="nav-item"><a class="nav-link" href="noscoffrets.php">Nos coffrets</a></li>
@@ -84,7 +85,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" style="background-image: url('assets/img/header-bg.jpg');">
             <div class="container">
                 <!-- <div class="masthead-subheading"><?php echo $tbl_config[0]['valeur']; ?></div> -->
                 <!-- <div class="masthead-heading text-uppercase" style="font-size: 35px;"><?php echo $tbl_config[1]['valeur']; ?></div> --> <br><br><br><br><br><br><br><br>
@@ -96,7 +97,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
         <section class="page-section" id="services">
             <div class="container">
                 <div class="text-center">
-                    
+                                        
                     <h2 class="section-heading text-uppercase" style="font-size: 28px;"><?php echo $tbl_config[4]['valeur']; ?></h2>
                     <h3 class="section-subheading text-muted" ><?php echo $tbl_config[5]['valeur']; ?></h3>
                 </div>
@@ -106,7 +107,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
 
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-circle fa-stack-2x" style="color: #e7d5bd;"></i>
                             <i class="fas <?php echo $registre["icone"];?> fa-stack-1x fa-inverse"></i>
                         </span>
                         <h4 class="my-3"> <?php echo $registre["title"];?></h4>
@@ -241,7 +242,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
       
         
     <!-- Contenido de tu página aquí -->
-
+<!-- 
     <div class="popup" id="popup">
         <div class="popup-content">
             <span class="close" id="closePopup">&times;</span>
@@ -258,7 +259,7 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
         </div>
     </div>
 </body>
-</html>
+</html> -->
 
 
 

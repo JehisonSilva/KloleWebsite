@@ -84,8 +84,11 @@ $liste_blog=$sentencia->fetchAll(PDO::FETCH_ASSOC);
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead">
+        <header class="masthead" style="background-image: url('assets/img/back-005.jpg');">
             <div class="container">
+            <div class="container">
+                <div class="masthead-subheading">Découvrez le Plaisir Authentique et Sensuel !!!</div>
+            </div>
                 <!-- <div class="masthead-subheading"><?php echo $tbl_config[0]['valeur']; ?></div> -->
                 <!-- <div class="masthead-heading text-uppercase" style="font-size: 35px;"><?php echo $tbl_config[1]['valeur']; ?></div> --> <br><br><br><br><br><br><br><br>
                 <!-- <a class="btn btn-primary btn-xl text-uppercase"href="blog.php" href="<?php echo $tbl_config[3]['valeur']; ?>"><?php echo $tbl_config[2]['valeur']; ?></a> -->
